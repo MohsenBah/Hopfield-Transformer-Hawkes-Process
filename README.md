@@ -1,6 +1,15 @@
-# New-Hawkes
+# Hopfield-Transformer Hawkes Process
 
 Modeling Multivariate Hopfield-Transformer Hawkes Process: Application to Sovereign Credit Default Swaps
+
+# Code and Data
+
+Data: We collected daily CDS rates for contracts with 1-year to 10-year durations from 3 November 2008 to 28 February 2012 from the platform, **Thomson Reuters Datastream** (Datastream International,(May 6, 2021), Credit Default SWAP[online], Available: Refinitiv/CDS)
+
+Code: **Hawkes_process.ipynb** initially deals with data preprocessing and visualization. Then the model runs by **bash run.sh**, which includes neural network parametes definition. The model is written by PyTorch.
+
+
+# Abstract
 
 Hawkes process was evolved so that the past events contribute to the occurrence time of
 future events by self-exciting or mutually exciting. However, many real-world data do
@@ -19,5 +28,17 @@ previous modified encoder layers. Credit Default Swap data for ten European coun
 tested, and the results revealed that modeling the contagious effect ameliorates the prediction
 performance.
 
-Mohsen Bahremani - Master thesis - Wilfrid Laurier Univeristy, Waterloo, ON.
-https://scholars.wlu.ca/etd/2417/
+
+# Recommended Citation
+
+Bahremani, Mohsen, "Modeling Multivariate Hopfield-Transformer Hawkes Process: Application to Sovereign Credit Default Swaps" (2021). Theses and Dissertations (Comprehensive). 2417.
+https://scholars.wlu.ca/etd/2417 
+
+```
+@article{bahremani2021modeling,
+  title={Modeling Multivariate Hopfield-Transformer Hawkes Process: Application to Sovereign Credit Default Swaps},
+  author={Bahremani, Mohsen},
+  year={2021},
+  publisher={Wilfrid Laurier University}
+}
+```
